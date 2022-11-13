@@ -1,0 +1,26 @@
+{
+  "name": "the-live-pod",
+  "version": "1.0.0",
+  "description": "node api for the live pod video library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@meanie/mongoose-to-json": "^2.5.0",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.10",
+    "mongoose-type-email": "^1.1.2"
+  },
+  "engines": {
+    "node": "12.18.2"
+  }
+}

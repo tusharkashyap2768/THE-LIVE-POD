@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0; 
+}
+
+body {
+	/* background : url(bg.jpg) no-repeat center center fixed;
+	background-size: cover; */
+	background-color: #0d1225;
+
+}
+
+
+
+
+.container{
+	width: 35%;
+	color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+@media screen and (max-width: 750px){
+	.container{
+		width: 65%;
+	}
+	
+}
+
+@media screen and (max-width: 500px){
+	.container{
+		width: 75%;
+	}
+	
+}
+
+
+.container h2 {
+	font-family: 'Oswald', sans-serif;
+	/* width:50%; */
+	display: inline-block;
+	font-size: 2rem;
+	border-bottom: 5px solid purple;
+	margin-bottom: 15px;
+	padding: 13px 0px
+}
+.box{
+	width:100%;
+	margin: 1rem 0px; 
+	border-bottom: 2px solid purple;
+	
+
+}
+.box input{
+
+	background:none;
+	width:80%;
+	
+	padding:.1rem .1rem;  
+	font-size: 1rem;
+	border: none;
+	outline: none;
+	color: white;
+
+}
+.box i {
+	
+	width:20%;
+	text-align: center;
+
+
+}
+
+.container p{
+	padding: .5rem;
+	padding-top: 0;
+}
+
+.btn{
+	color: white;
+	cursor:pointer;
+	outline: none;
+	margin:12px 0px;
+	padding: 10px 21px;
+	border:2px solid purple;
+	border-radius: 10px;
+	font-size: 18px;
+	background:none;
+	font-weight:bold;
+
+
+
+}
+.btn:hover{
+	opacity: 0.5;
+	color: purple;
+	background:white;
+
+
+}
